@@ -10,4 +10,10 @@ This repository contains my solutions to DSA problems and notes while learning C
 - Basic Maths
 - Recursion
 - Multiple Recursion
+- Sorting-I
+## Language
+-C++
+## Progress
+I regulary update this repository as I learn new topics and solve more problems
+
 
