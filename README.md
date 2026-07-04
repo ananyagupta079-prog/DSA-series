@@ -11,6 +11,7 @@ This repository contains my solutions to DSA problems and notes while learning C
 - Recursion
 - Multiple Recursion
 - Sorting-I
+- Sorting-II
 ## Language
 -C++
 ## Progress
