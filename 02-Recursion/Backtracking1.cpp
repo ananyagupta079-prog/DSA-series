@@ -3,9 +3,10 @@ using namespace std;
 void pr(int i,int n){
     if(i>n){
         return;
-    }else{
-        cout<<i<<" ";
+    }
+    else{
         pr(i+1,n);
+        cout<<i<<" ";
     }
 }
 int main(){
