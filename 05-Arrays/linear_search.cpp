@@ -7,12 +7,13 @@ int main(){
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-    int temp=arr[0];
+    int num;
+    cin>>num;
     for(int i=0;i<n;i++){
-        arr[i-1]=arr[i];
+        if(arr[i]==num){
+            cout<<i<<endl;
+            break;;
+        }
     }
-    arr[n-1]=temp;
-    for(int i=0;i<n;i++){
-        cout<<arr[i]<<" ";
-    }
+
 }
