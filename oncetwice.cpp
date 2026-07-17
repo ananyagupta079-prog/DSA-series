@@ -1,12 +1,15 @@
 #include<iostream>
+#include<vector>
+#include<map>
 using namespace std;
 // Brute Force Approach
 int brute(vector<int>arr,int n){
+    int num,i;
     for(int i=0;i<n;i++){
         int num=arr[i];
-        int cnt=0;
     }
-    for(int j=0;j<n;i++){
+     int cnt=0;
+    for(int j=0;j<n;j++){
         if(arr[j]==num){
             cnt++;
         }
@@ -26,6 +29,7 @@ int better(vector<int>arr,int n){
             return it.first;
         }
     }
+    return 0;
 }
 // optimal Approach
 int optimal(vector<int>arr,int n){
@@ -43,7 +47,7 @@ int main(){
         cin>>arr[i];
     }
     int br=brute(arr,n);
-    cout<<br<<endl
+    cout<<br<<endl;
     int b=better(arr,n);
     cout<<b<<endl;
     int o=optimal(arr,n);

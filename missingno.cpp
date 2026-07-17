@@ -3,8 +3,8 @@
 using namespace std;
 // Brute Force Approach
 int brute(vector<int>arr,int n){
+    int flag=0,i;
     for(int i=0;i<n;i++){
-        int flag=0;
         for(int j=0;j<n-1;j++){
             if(arr[j]==i){
                 flag=1;
@@ -18,7 +18,8 @@ int brute(vector<int>arr,int n){
 }
 //Better Approach
 int better(vector<int>arr,int n){
-    hash[n+1]={0};
+    int i;
+    int hash[n+1]={0};
     for(int i=0;i<n;i++){
         hash[arr[i]]=1;
     }
