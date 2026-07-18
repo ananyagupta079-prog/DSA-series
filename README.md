@@ -35,7 +35,6 @@ solutions with explanation
 
 ## Resources
 - Strivers A2Z Sheet
-- Leetcode
 - GeeksforGeeks
 
 ## Contributions
