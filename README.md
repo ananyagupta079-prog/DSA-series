@@ -42,3 +42,35 @@ Suggestions and Improvements are always welcome.
 
 If you find this repository helpful,consider giving it a star.
 
+## How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/ananyagupta079-prog/DSA-series.git
+```
+
+### 2. Open the project
+
+Open the project in VS Code or any C++ IDE.
+
+### 3. Compile the program
+for example: '05-Arrays'
+
+```bash
+g++ duplicates.cpp  -o output
+```
+
+### 4. Run the program
+
+On Windows:
+
+```bash
+output.exe
+```
+
+On Linux/macOS:
+
+```bash
+./output
+```
