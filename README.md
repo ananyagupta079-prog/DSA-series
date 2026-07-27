@@ -17,7 +17,7 @@ This repository contains my C++ implementations of Data Structures and Algorithm
 - [x] Hashing
 - [x] Sorting-I
 - [x] Sorting-II
-- [x] Arrays(In Progress)
+- [x] Arrays
 
 ## Repository Structure
 Basic Maths
@@ -38,7 +38,13 @@ solutions with explanation
 - GeeksforGeeks
 
 ## Contributions
-Suggestions and Improvements are always welcome.
+contributions are welcome!
+1.Fork the repository
+2.Create a new branch
+3.Make your changes
+4.Commit your changes
+5.Push to your branch
+6.Open a pull request
 
 If you find this repository helpful,consider giving it a star.
 
